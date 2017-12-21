@@ -4,17 +4,31 @@
     <title>floogle Map</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
   </head>
   <body>
+    <div class="login">
+    <form class="ui form field">
+      <img src="Floogle Maps Logo">
+      <br>
+      <h2>Log In</h2>
+          <input type="text" name="username" placeholder="Username">
+
+
+          <input type="text" name="password" placeholder="Password">
+
+      <button class="ui button" type="submit">Submit</button>
+      <br>
+      Forgot your username and/or password? <a href="#">Click here.</a>
+      <br>
+      Are you a new user? <a href="#">Sign up!</a>
+    </form>
+    </div>
 
     <div id="map"></div>
 
-
-
-
-
-
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjk6IiG0uVROIXPH2_g5wQG-9K8g9ADEo&callback=initMap"
     async defer></script>

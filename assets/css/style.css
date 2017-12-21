@@ -9,3 +9,18 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+.login {
+	text-align: center;
+}
+
+.field {
+	width:400px;
+	margin:auto;
+	/*box-sizing: border-box;*/
+}
+
+input {
+	text-align: center;
+}
+
