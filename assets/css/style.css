@@ -10,17 +10,20 @@ html, body {
   padding: 0;
 }
 
+/*Centers the login section*/
 .login {
 	text-align: center;
 }
 
+/*Sizes and centers input fields*/
 .field {
 	width:400px;
 	margin:auto;
 	/*box-sizing: border-box;*/
 }
 
-input {
+
+.forgotLogin {
 	text-align: center;
 }
 
