@@ -1,32 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>floogle Map</title>
-    <meta name="viewport" content="initial-scale=1.0">
+<head>
+	<title>Sign Up</title>
+	<meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
-  </head>
-  <body>
-    <div class="login">
-    <form class="ui form field">
-      <img src="Floogle Maps Logo">
-      <br>
-      <h2>Log In</h2>
-          <input type="text" name="username" placeholder="Username">
-
-
-          <input type="text" name="password" placeholder="Password">
-
-      <button class="ui button" type="submit">Submit</button>
-      <br>
-      Forgot your username and/or password? <a href="#">Click here.</a>
-      <br>
-      Are you a new user? <a href="#">Sign up!</a>
-    </form>
-    </div>
-
-    <div id="newUser">
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Carter+One|Gloria+Hallelujah|Russo+One" rel="stylesheet">
+</head>
+<body>
+	<container id="newUserRegristation">
+	<h1>New User Registration</h1>
+</container>
+<div id="newUser">
       <form class="ui form segment">
  
   <div class="field">
@@ -38,20 +24,20 @@
     <input name="password" type="password">
   </div>
   <div class="inline field">
+
     
-  </div>
+  </div id="buttons">
   <div class="ui primary submit button">Submit</div>
   <div class="ui reset button">Reset</div>
   <div class="ui clear button">Clear</div>
 </form>
 </div>
 
-    <div id="map"></div>
-
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjk6IiG0uVROIXPH2_g5wQG-9K8g9ADEo&callback=initMap"
     async defer></script>
     <script src="./assets/javascript/logic.js"></script>
-  </body>
+</body>
 </html>

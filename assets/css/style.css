@@ -1,5 +1,8 @@
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
+
+
+
 #map {
   height: 100%;
 }
@@ -24,3 +27,40 @@ input {
 	text-align: center;
 }
 
+h1
+
+{
+	font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Carter One', cursive;
+font-family: 'Russo One', sans-serif;
+letter-spacing: 6px;
+	text-align: center;
+	padding-top: 100px;
+
+}
+
+
+
+#newUser
+{
+	clear: both;
+	align-self: center;
+	padding: 100px;
+	border:200px;
+	margin-left: 450px;
+	margin-right: 450px;
+	margin-bottom: 200px;
+
+
+}
+
+#newUserRegistration
+{
+	font-family: 'Play', sans-serif;
+}
+
+#buttons
+{
+ 
+}
