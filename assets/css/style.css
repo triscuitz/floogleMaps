@@ -1,9 +1,8 @@
-/* Always set the map height explicitly to define the size of the div
- * element that contains the map. */
+/* Always set the map height explicitly to define the size of the div element that contains the map. */
 
 body
 {
-	background: url("../images/pretty.jpeg");
+	background: url("../images/photographer_background.png");
 	background-size: 100% 100%;
 	height: 100%;
 	width: 100%;
@@ -14,12 +13,6 @@ body
 #map {
   height: 100%;
 }
-/* Optional: Makes the sample page fill the window. */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
 
 /*Centers the login section*/
 .login {
@@ -28,30 +21,14 @@ html, body {
 
 /*Sizes and centers input fields*/
 .field {
-	width:400px;
+	width:350px;
 	margin:auto;
 	/*box-sizing: border-box;*/
 }
 
-
 .forgotLogin {
 	text-align: center;
 }
-
-.signInText
-
-{
-	font-family: 'Gloria Hallelujah', cursive;
-font-family: 'Cabin Sketch', cursive;
-font-family: 'Carter One', cursive;
-font-family: 'Russo One', sans-serif;
-letter-spacing: 6px;
-	text-align: center;
-	padding-top: 100px;
-
-}
-
-
 
 #newUser
 {
@@ -62,16 +39,17 @@ letter-spacing: 6px;
 	margin-left: 450px;
 	margin-right: 450px;
 	margin-bottom: 200px;
-
-
 }
 
 #signInText
 {
-	font-family: 'Play', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 3px;
+	font-size: 50px;
+	color: gray;
 }
 
-#buttons
+button
 {
- 
+ padding: 10px;
 }
