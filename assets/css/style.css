@@ -38,7 +38,7 @@ html, body {
 	text-align: center;
 }
 
-.newUserRegHeader
+.signInText
 
 {
 	font-family: 'Gloria Hallelujah', cursive;
@@ -66,7 +66,7 @@ letter-spacing: 6px;
 
 }
 
-#newUserRegistration
+#signInText
 {
 	font-family: 'Play', sans-serif;
 }
