@@ -1,37 +1,34 @@
-/* Always set the map height explicitly to define the size of the div element that contains the map. */
-
-body
-{
-	background: url("../images/photographer_background.png");
-	background-size: 100% 100%;
+body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
 	padding: 0;
 }
-
+#signIn{
+	background: url("../images/photographer_background.png");
+	background-size: 100% 100%;
+}
+#logo{
+	width: 400px;
+	margin-top: 50px;
+}
 #map {
   height: 100%;
 }
-
 /*Centers the login section*/
 .login {
 	text-align: center;
 }
-
 /*Sizes and centers input fields*/
 .field {
 	width:350px;
 	margin:auto;
 	/*box-sizing: border-box;*/
 }
-
 .forgotLogin {
 	text-align: center;
 }
-
-#newUser
-{
+#newUser {
 	clear: both;
 	align-self: center;
 	padding: 100px;
@@ -40,16 +37,32 @@ body
 	margin-right: 450px;
 	margin-bottom: 200px;
 }
-
-#signInText
-{
+#signInText {
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 3px;
 	font-size: 50px;
 	color: gray;
 }
-
-button
-{
+button {
  padding: 10px;
+}
+#map {
+  height: 400px;
+  width: 100%;
+}
+#flickr0, #flickr1, #flickr2, #flickr3, #flickr4, #flickr5, #flickr6, #flickr7, #flickr8, #flickr9, #flickr10 {
+	display: inline-block;
+	 width: 145px;
+    height: 125px;
+}
+.login {
+	text-align: center;
+}
+.field {
+	width:400px;
+	margin:auto;
+	/*box-sizing: border-box;*/
+}
+input {
+	text-align: center;
 }
