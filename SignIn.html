@@ -10,8 +10,6 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <!-- Firebase Reference -->
-    <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
 </head>
 <body id="signIn">
 	<container id="signIn">
@@ -25,6 +23,20 @@
       </form>
     </div>
   </container>
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDe5NQ_9RbKTHKq3T7uFfVoeFmZqh9eKBo",
+        authDomain: "floogle-maps.firebaseapp.com",
+        databaseURL: "https://floogle-maps.firebaseio.com",
+        projectId: "floogle-maps",
+        storageBucket: "",
+        messagingSenderId: "114377157828"
+        };
+      firebase.initializeApp(config);
+    </script>
 
     <!-- Semantic UI -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
