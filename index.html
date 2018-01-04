@@ -1,18 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
     <title>floogle Map</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+ <!-- Semantic UI -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
   </head>
-  
   <body>
-    <div id="map"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjk6IiG0uVROIXPH2_g5wQG-9K8g9ADEo&callback=initMap"
+
+  <div class="ui large icon input">
+    <input type="text" id="search" placeholder="Search large...">
+    <i class="search icon" id='searchParam'></i>
+  </div>
+
+  <div class="ui container">
+      <div id="map"></div>
+  </div>
+
+  <div class="ui container">
+    <img id="flickr0"></img>
+    <img id="flickr1"></img>
+    <img id="flickr2"></img>
+    <img id="flickr3"></img>
+    <img id="flickr4"></img>
+    <img id="flickr5"></img>
+    <img id="flickr6"></img>
+    <img id="flickr7"></img>
+    <img id="flickr8"></img>
+    <img id="flickr9"></img>
+  </div>
+
+
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- google map API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjk6IiG0uVROIXPH2_g5wQG-9K8g9ADEo&callback=initMap"
     async defer></script>
-    <script src="./assets/javascript/logic.js"></script>
+  <!-- javascript -->
+  <script src="assets/javascript/logic.js"></script>
+
   </body>
 </html>
