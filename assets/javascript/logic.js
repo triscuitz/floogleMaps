@@ -30,7 +30,7 @@ $("#searchParam").on("click", function() {
   console.log(location);
 
   // URL to query the database
-  var queryURL = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=" + APIKey +  "&text=" + location + "&privacy_filter=1&accuracy=11&safe_search=1&content_type=1&format=json&nojsoncallback=1";
+  var queryURL = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=" + APIKey +  "&tags=christmas&text=" + location + "&privacy_filter=1&accuracy=11&safe_search=1&content_type=1&format=json&nojsoncallback=1";
 
   $.ajax({
     url: queryURL,

@@ -8,28 +8,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
-    <!-- Google Fonts-->
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <!-- Firebase Reference -->
+
 </head>
 <body id="signIn">
-	<container id="signIn">
+	<div id="signIn">
     <center><img src="assets/images/floogleMaps.png" id="logo"></center>
       <div class="login">
 	     <h1 id="signInText">Login</h1>
+       <section id="signInBox">
         <form class="ui form field">
           <input id='signText' type="text" name="username" placeholder="Username">
           <br>
+
           <button id='submitLogin' class="ui button" type="submit">Go!</button>
       </form>
     </div>
-  </container>
+  </div>
+  <br><br><br><br><br><br>
+
+  <div id="description">
+    Floogle Maps is a personalized user experience that displays pictures in the location they were taken. Explore a new area or revisit a familiar one and see the world through someone else’s eyes.
+  </div>
   <!-- Firebase Reference -->
   <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
   <!-- jQuery -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
-    
     <script src="./assets/javascript/logic.js"></script>
 </body>
 </html>
