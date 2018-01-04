@@ -6,6 +6,21 @@ var map;
     });
 };
 
+// 1. Initialize Firebase
+
+  var config = {
+    apiKey: "AIzaSyAJI8v9GNwTc4SzgCfowNw8ZXhHw4XyEYI",
+    authDomain: "flooglemaps.firebaseapp.com",
+    databaseURL: "https://flooglemaps.firebaseio.com",
+    projectId: "flooglemaps",
+    storageBucket: "flooglemaps.appspot.com",
+    messagingSenderId: "995248440323"
+  };
+
+  firebase.initializeApp(config);
+
+  var database = firebase.database();
+
 $(document).ready(function(){
 $("#searchParam").on("click", function() {
 
@@ -15,7 +30,7 @@ $("#searchParam").on("click", function() {
   console.log(location);
 
   // URL to query the database
-  var queryURL = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=" + APIKey +  "&text=" + location + "&privacy_filter=1&accuracy=11&safe_search=1&content_type=1&format=json&nojsoncallback=1";
+  var queryURL = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=" + APIKey +  "&tags=christmas&text=" + location + "&privacy_filter=1&accuracy=11&safe_search=1&content_type=1&format=json&nojsoncallback=1";
 
   $.ajax({
     url: queryURL,
@@ -40,7 +55,29 @@ $("#searchParam").on("click", function() {
   console.log(secret);
   console.log(farmImage);
 
-      };
+  };
+
     });
+
+  });
+
+// add user name
+  $("#submitLogin").on("click", function(event) {
+    event.preventDefault();
+
+    // Grab user input
+    var userName = $("#signText").val().trim();
+    database.ref().push(userName);
+    window.location.replace('Landing.html');
   });
 });
+
+
+
+
+
+  
+
+  
+    
+    

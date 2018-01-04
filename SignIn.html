@@ -10,31 +10,37 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 </head>
 <body id="signIn">
+<<<<<<< HEAD
 	<container id="signIn">
     <center><img id="floogleLogo" src="assets/images/floogleMaps.png"></center>
+=======
+	<div id="signIn">
+    <center><img src="assets/images/floogleMaps.png" id="logo"></center>
+>>>>>>> 1d67cd9367475bb693be650d8125237bae089dde
       <div class="login">
 	     <h1 id="signInText">Login</h1>
        <section id="signInBox">
         <form class="ui form field">
-          <input type="text" name="username" placeholder="Username">
+          <input id='signText' type="text" name="username" placeholder="Username">
           <br>
-          <button class="ui button" type="submit">Go!</button>
-        </section>
+
+          <button id='submitLogin' class="ui button" type="submit">Go!</button>
       </form>
     </div>
-  </container>
+  </div>
   <br><br><br><br><br><br>
-  <container id="description">
+
+  <div id="description">
     Floogle Maps is a personalized user experience that displays pictures in the location they were taken. Explore a new area or revisit a familiar one and see the world through someone else’s eyes.
-  </container>
-    <!-- Semantic UI -->
+  </div>
+  <!-- Firebase Reference -->
+  <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+  <!-- jQuery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
-    <!-- Google Maps API -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjk6IiG0uVROIXPH2_g5wQG-9K8g9ADEo&callback=initMap"
-    async defer></script>
-    <!-- JavaScript -->
     <script src="./assets/javascript/logic.js"></script>
 </body>
 </html>
