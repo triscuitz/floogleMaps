@@ -16,28 +16,19 @@
     <center><img src="assets/images/floogleMaps.png" id="logo"></center>
       <div class="login">
 	     <h1 id="signInText">Login</h1>
+       <section id="signInBox">
         <form class="ui form field">
           <input type="text" name="username" placeholder="Username">
           <br>
           <button class="ui button" type="submit">Go!</button>
+        </section>
       </form>
     </div>
   </container>
-    <!-- Firebase Reference -->
-    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-    <script>
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyDe5NQ_9RbKTHKq3T7uFfVoeFmZqh9eKBo",
-        authDomain: "floogle-maps.firebaseapp.com",
-        databaseURL: "https://floogle-maps.firebaseio.com",
-        projectId: "floogle-maps",
-        storageBucket: "",
-        messagingSenderId: "114377157828"
-        };
-      firebase.initializeApp(config);
-    </script>
-
+  <br><br><br><br><br><br>
+  <container id="description">
+    Floogle Maps is a personalized user experience that displays pictures in the location they were taken. Explore a new area or revisit a familiar one and see the world through someone else’s eyes.
+  </container>
     <!-- Semantic UI -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
     <!-- Google Maps API -->
