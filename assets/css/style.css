@@ -13,7 +13,7 @@ body {
 	margin-top: 50px;
 }
 #map {
-  	height: 450px;
+  height: 450px;
 }
 #signInBox {
     background-color: white;
@@ -119,3 +119,4 @@ input {
   animation-name: fadeInUp;
   animation-duration: 3s;
 }
+
