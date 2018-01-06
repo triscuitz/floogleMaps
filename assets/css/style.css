@@ -3,17 +3,17 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background: url("../images/photographer_background.png");
-	background-size: 100% 100%;
 }
 #signIn {
+	background: url("../images/photographer_background.png");
+	background-size: 100% 100%;
 }
 #logo {
 	width: 400px;
 	margin-top: 50px;
 }
 #map {
-  height: 450px;
+  	height: 450px;
 }
 #signInBox {
     background-color: white;
@@ -46,11 +46,12 @@ body {
 	margin:auto;
 	/*box-sizing: border-box;*/
 }
+
 #signInText {
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 3px;
 	font-size: 50px;
-	color: gray;
+	color: green;
 }
 .flickrPic {
 	display: inline-block;
