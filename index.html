@@ -1,48 +1,42 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <title>floogle Map</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="initial-scale=1.0">
-  <!-- Semantic UI -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
-  </head>
-  <body>
+<html>
+<head>
+	<title>Sign In</title>
+	<meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- Semantic UI -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-  <div class="ui large icon input">
-    <input type="text" id="search" placeholder="Search large...">
-    <i class="search icon" id='searchParam'></i>
+</head>
+<body id="signIn">
+
+	<div id="signIn">
+    <center><img src="assets/images/floogleMaps.png" id="logo"></center>
+      <div class="login">
+	     <h1 id="signInText">Login</h1>
+       <section id="signInBox">
+        <form class="ui form field">
+          <input id='signText' type="text" name="username" placeholder="Username">
+          <br>
+
+          <button id='submitLogin' class="ui button" type="submit">Go!</button>
+      </form>
+    </div>
   </div>
+  <br><br><br><br><br><br>
 
-  <div class="ui container">
-      <div id="map"></div>
+  <div id="description">
+    Floogle Maps is a personalized user experience that displays pictures in the location they were taken. Explore a new area or revisit a familiar one and see the world through someone else’s eyes.
   </div>
-
-  <div class="ui container">
-    <img id="flickr0">
-    <img id="flickr1">
-    <img id="flickr2">
-    <img id="flickr3">
-    <img id="flickr4">
-    <img id="flickr5">
-    <img id="flickr6">
-    <img id="flickr7">
-    <img id="flickr8">
-    <img id="flickr9">
-  </div>
-
-
-
-
+  <!-- Firebase Reference -->
+  <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
   <!-- jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- google map API -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjk6IiG0uVROIXPH2_g5wQG-9K8g9ADEo&callback=initMap"
-    async defer></script>
-  <!-- javascript -->
-  <script src="assets/javascript/logic.js"></script>
-
-  </body>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+    <script src="./assets/javascript/logic.js"></script>
+</body>
 </html>

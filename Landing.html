@@ -12,7 +12,7 @@
   <body>
 
   <div class="ui large icon input">
-    <input type="text" id="search" placeholder="Search large...">
+    <input class="controls" type="text" id="pac-input" placeholder="Search Box">
     <i class="search icon" id='searchParam'></i>
   </div>
 
@@ -21,19 +21,26 @@
   </div>
 
   <div class="ui container">
-    <img id="flickr0">
-    <img id="flickr1">
-    <img id="flickr2">
-    <img id="flickr3">
-    <img id="flickr4">
-    <img id="flickr5">
-    <img id="flickr6">
-    <img id="flickr7">
-    <img id="flickr8">
-    <img id="flickr9">
+    <img class='flickrPic' id="flickr0"></img>
+    <img class='flickrPic' id="flickr1"></img>
+    <img class='flickrPic' id="flickr2"></img>
+    <img class='flickrPic' id="flickr3"></img>
+    <img class='flickrPic' id="flickr4"></img>
+    <img class='flickrPic' id="flickr5"></img>
+    <img class='flickrPic' id="flickr6"></img>
+    <img class='flickrPic' id="flickr7"></img>
+    <img class='flickrPic' id="flickr8"></img>
+    <img class='flickrPic' id="flickr9"></img>
+    <img class='flickrPic' id="flickr10"></img>
+    <img class='flickrPic' id="flickr11"></img>
+    <img class='flickrPic' id="flickr12"></img>
+    <img class='flickrPic' id="flickr13"></img>
+    <img class='flickrPic' id="flickr14"></img>
+    <img class='flickrPic' id="flickr15"></img>
   </div>
+
   <div>
-    <a href='Signin.html'><button class="btn btn-primary">Back to login</button></a>
+    <a href='index.html'><button class="ui orange button">Back to login</button></a>
   </div>
 
 
@@ -42,11 +49,11 @@
   <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
   <!-- google map API -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjk6IiG0uVROIXPH2_g5wQG-9K8g9ADEo&callback=initMap"
-    async defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZvPOF9-bnWzvWT6e6mIrOTUoCcWvPy74&libraries=places&callback=initAutocomplete"async defer></script>
   <!-- javascript -->
-  <script src="assets/javascript/logic.js"></script>
+  <script src="./assets/javascript/logic.js"></script>
 
   </body>
 </html>
