@@ -3,10 +3,10 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-}
-#signIn {
 	background: url("../images/photographer_background.png");
 	background-size: 100% 100%;
+}
+#signIn {
 }
 #logo {
 	width: 400px;
