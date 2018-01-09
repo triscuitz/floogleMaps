@@ -116,6 +116,21 @@ body {
   }
 }
 
+#imgPic {
+  height: 500px;
+  width: 550px;
+
+}
+
+.ui.modal {
+  width: 500px;
+
+}
+#imagePic {
+  width: 100%;
+}
+
+
 #description {
   animation-name: fadeInUp;
   animation-duration: 3s;
