@@ -123,13 +123,12 @@ body {
 }
 
 .ui.modal {
-  width: 500px;
-
+  width: 65%;
 }
+
 #imagePic {
   width: 100%;
 }
-
 
 #description {
   animation-name: fadeInUp;
