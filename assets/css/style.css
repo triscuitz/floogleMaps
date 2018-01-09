@@ -137,6 +137,7 @@ body {
 }
 
 #headerBar {
+	width: 100%;
 	margin-top: 10px;
 	margin-bottom: 5px;
 }
@@ -148,4 +149,8 @@ body {
 
 #searchBox {
 	width: 100%;
+}
+
+#flickrCont {
+	margin-top: 10px;
 }

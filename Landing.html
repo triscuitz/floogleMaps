@@ -11,27 +11,31 @@
   </head>
   <body>
 
-    <div class="ui centered grid container" id="headerBar">
-      <div class="left floated four wide column">
-        <img src="assets/images/floogleMaps.png" id="landingLogo">
-      </div>
-      <div class="eight wide column">
-        <div class="ui icon input" id="searchBox">
-          <input class="controls" type="text" id="pac-input" placeholder="Search Box">
-          <i class="search icon" id='searchParam'></i>
+    <div class="ui grid" id="headerBar">
+      <div class="three column row">
+        <div class="left floated left aligned column">
+          <img src="assets/images/floogleMaps.png" id="landingLogo">
         </div>
-      </div>
-        <div class="four wide column">
-          <a href='index.html'><button class="ui basic pink button">Back to login</button></a>
+        <div class="column">
+          <div class="ui action input" id="searchBox">
+            <input class="controls" type="text" id="pac-input" placeholder="Where do you want to go?">
+            <i class="ui basic green button" id='searchParam'>Search</i>
+          </div>
         </div>
+          <div class="right floated right aligned column">
+            <div>
+              <a href='index.html'><button class="ui basic pink button">Back to login</button></a>
+            </div>
+          </div>
       </div>
+    </div>
 
   <div class="ui container">
       <div id="map"></div>
   </div>
 
 
-  <div class="ui container">
+  <div class="ui container" id="flickrCont">
     <img class='flickrPic' id="flickr0"></img>
     <img class='flickrPic' id="flickr1"></img>
     <img class='flickrPic' id="flickr2"></img>
@@ -50,9 +54,6 @@
     <img class='flickrPic' id="flickr15"></img>
   </div>
 
-  <div>
-    <a href='index.html'><button class="ui orange button">Back to login</button></a>
-  </div>
   <!-- This is code for the modal -->
   <div class="ui modal">
   <div class="header">Flickr Image</div>
