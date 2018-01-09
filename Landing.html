@@ -11,15 +11,25 @@
   </head>
   <body>
 
-  <div class="ui large icon input">
-    <input class="controls" type="text" id="pac-input" placeholder="Search Box">
-    <i class="search icon" id='searchParam'></i>
-  </div>
+    <div class="ui centered grid container" id="headerBar">
+      <div class="left floated four wide column">
+        <img src="assets/images/floogleMaps.png" id="landingLogo">
+      </div>
+      <div class="eight wide column">
+        <div class="ui icon input" id="searchBox">
+          <input class="controls" type="text" id="pac-input" placeholder="Search Box">
+          <i class="search icon" id='searchParam'></i>
+        </div>
+      </div>
+        <div class="four wide column">
+          <a href='index.html'><button class="ui basic pink button">Back to login</button></a>
+        </div>
+      </div>
 
   <div class="ui container">
       <div id="map"></div>
   </div>
-  
+
 
   <div class="ui container">
     <img class='flickrPic' id="flickr0"></img>
@@ -49,7 +59,7 @@
   <div class="image content">
     <img class='image' id="imagePic" src='https://i.ytimg.com/vi/XB-yhWfApWo/maxresdefault.jpg'>
     <div class="description">
-      
+
     </div>
   </div>
 </div>

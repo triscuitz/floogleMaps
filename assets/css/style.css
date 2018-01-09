@@ -121,3 +121,16 @@ body {
   animation-duration: 3s;
 }
 
+#headerBar {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+#landingLogo {
+	width: 200px;
+	margin-left: 20px;
+}
+
+#searchBox {
+	width: 100%;
+}
