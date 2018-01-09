@@ -19,6 +19,7 @@
   <div class="ui container">
       <div id="map"></div>
   </div>
+  
 
   <div class="ui container">
     <img class='flickrPic' id="flickr0"></img>
@@ -42,7 +43,16 @@
   <div>
     <a href='index.html'><button class="ui orange button">Back to login</button></a>
   </div>
-
+  <!-- This is code for the modal -->
+  <div class="ui modal">
+  <div class="header">Flickr Image</div>
+  <div class="image content">
+    <img class='image' id="imagePic" src='https://i.ytimg.com/vi/XB-yhWfApWo/maxresdefault.jpg'>
+    <div class="description">
+      
+    </div>
+  </div>
+</div>
 <!-- Firebase Reference -->
   <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
   <!-- jQuery -->
@@ -50,6 +60,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
   <!-- google map API -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZvPOF9-bnWzvWT6e6mIrOTUoCcWvPy74&libraries=places&callback=initAutocomplete"async defer></script>
+  <script src='./assets/javascript/semantic.min.js'></script>
   <!-- javascript -->
   <script src="./assets/javascript/logic.js"></script>
 

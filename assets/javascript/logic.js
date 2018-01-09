@@ -125,7 +125,13 @@
         console.log(secret);
         console.log(farmImage);
 
-        };
+     
+      };
       });
     });
+    $(".flickrPic").click(function() {
+      const imagePath = $(this).attr('src');
+      $('#imagePic').attr('src', imagePath);
+          $('.ui.modal').modal('show');
+        });
   });
